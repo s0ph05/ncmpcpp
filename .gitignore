@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+*.cxx[cod]
+*.hxx[cod]
+*.cpp[cod]
+*.hpp[cod]
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+# Precompiled Headers
+*.gch
+*.pch
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+# Fortran module files
+*.mod
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+# Executables
+*.exe
+*.out
+*.app
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.synctex.gz
+
+#Ignore png's except ET.png
+!ET.png
+*.png
+
+#Executable files with no extensions
+apr/tv_demo/errorTest
+apr/tv_demo/applyConstraint
+apr/tv_demo/applyConstraints
+apr/tv_demo/threeD/volTest
+
+#Ignore txt files
+*.txt
+
+#Ignore swp files
+*.swp
+
+#Temporarily ignore these
+/docs/comments_on_bhio.tex
+/docs/comments_on_bhio.pdf
+
+# ignore old files
+*~
+*ipynb
+*h5
